@@ -1,0 +1,42 @@
+body {
+    background-color: #3498DB;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-box {
+    background: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    height: 300px;
+    width: 400px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+label{
+    margin-bottom: 10px;
+}
+
+input {
+    height: 30px;
+    background-color: #EFEFEF;
+    border: 0;
+}
+
+textarea{
+    background-color: #EFEFEF;
+    border: 0;
+}
+button{
+    background-color: #3498DB;
+    color: white;
+    margin-top: 10px;
+    border: 0;
+    height: 30px;
+}
